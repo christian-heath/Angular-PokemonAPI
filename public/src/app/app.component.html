@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Welcome to the PokeAPI!</h1>
+  <h2>Search a pokemon here</h2>
+  <input (keyup) type="getTheData($event)">
+  <img src="{{ image }}" alt="{{ name }}">
+  <h3>{{ name }}</h3>
+  <h4 *ngFor='let x of abilities;'>{{ x }}</h4>
+</div>
+
